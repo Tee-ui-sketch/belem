@@ -1,0 +1,157 @@
+/* ==========================
+    Mon style CSS de tous les sites
+    ========================== */
+
+    * {
+        box-sizing: border-box; /* corriger la taille des boites */
+    }
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+        
+    body {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #605e5e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: flex; 
+    gap: 20px; 
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    padding: 20px ;
+    width: 30%;
+    gap: 0px;
+}
+.favorite-button {
+    display: flex; align-items: center;
+    gap: .5em;
+    padding: 1em;
+    background: #382f06; color: currentColor;
+    border: none; cursor: pointer;
+    border-radius: 8px;
+
+    color: rgb(255, 255, 255);
+      
+}
+button:hover {
+    background-color: rgb(240, 92, 23);
+    color:#000 ;
+  }
+    .favorite-button svg {
+    width: 1em; height: 1em;
+    }
+    .burger-icon {
+        width: 100px; height: 100px; /* taille du SVG */
+        border: 2px dotted #ddd; /* bordure = simple repère */
+      }
+      rect {
+        x: 0;
+        rx: 5px;
+        width: 100px;
+        height: 20px;
+      }
+      .rect-1 {
+        y: 0;
+      }
+      .rect-2 {
+        y: 40px;
+      }
+      .rect-3 {
+        y: 80px;
+      }
+      rect {
+        ...
+        transition: y 1s;
+      }
+      .rect-1:hover {
+        y: 15px;
+      }
+      rect {
+        transition: 
+          y 0.3s,
+          opacity 0.3s;
+      }
+      
+      /* coordonnées y initiales */
+      .rect-1 {
+        y: 0;
+      }
+      .rect-2 {
+        y: 40px;
+      }
+      .rect-3 {
+        y: 80px;
+      }
+      
+      
+      
+.photo {
+    background-color: antiquewhite;
+}
+.container{
+    border: 3px solid red;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+li{
+    background-color: #00c492;
+    padding: 15px;
+    border-radius: 5px;
+   margin-bottom: 20px;
+}
+.contact{
+    background-color: #00c492;
+    color: aliceblue;
+    padding-bottom: 20px;
+    
+}
+.contact a {
+    text-decoration: underline;
+}
+#map{
+    width:100%;
+    margin: auto;
+}
+
+.footer {
+    background-color: #2d343e;
+    padding: 20px;
+    color: aliceblue;
+
+}
+.policy {
+
+    background-color: black;
+    color: aliceblue;
+    padding: 30px; 
+}
+.photcentrale{
+    background-color: black;
+}
+.photoface{
+    background-color: black;
+}
+
+
+
+
+
+
+
